@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0;
+  
+  height: fit-content;
+  /* overflow: hidden; */
+}
+#root{
+  height: 100%;
+}
+.App {
+  /* background-color: ; */
+  /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('https://i.pinimg.com/originals/e3/4d/c3/e34dc34286f9f2f9b0377f34241f2510.jpg') no-repeat center/cover; */
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  color: rgb(252, 252, 252);
+  /* margin: 0 20px 0; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* left: 100px; */
+}
+/* styles.css */
+
+.bground{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url('https://i.pinimg.com/originals/e3/4d/c3/e34dc34286f9f2f9b0377f34241f2510.jpg') no-repeat center/cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.input-search{
+  border-radius: 0 50px 0 5px;
+  border-style: solid;
+  color: white;
+  justify-self: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  /* left: 50vw; */
+  background-color: rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+.input-search:focus{
+  background-color: rgba(0,0,0,1);
+}
