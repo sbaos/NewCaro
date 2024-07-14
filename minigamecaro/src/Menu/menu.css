@@ -1,0 +1,59 @@
+.menu{
+    height: 60vh;
+    width: 50vh ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    top: 20vh;
+    color: red;
+    text-shadow: 20px;
+    text-align: center;
+    font-weight: bolder;
+    /* font-weight: 200; */
+    /* left: 25vw; */
+    background-color: gray;
+}
+.start-button{
+    margin-top: 0px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 10px ridge black;
+
+}
+.continue-button{
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 10px ridge black;
+}
+.setting-button{
+    margin-top: 10px ;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 10px ridge black;
+}
+.quit-button{
+    margin-top: 10px; 
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 10px ridge black;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.button:active ~ .quit-button{
+    background-color: black;
+    color: rgb(228, 38, 38);
+}

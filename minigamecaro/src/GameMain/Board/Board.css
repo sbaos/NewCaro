@@ -1,0 +1,42 @@
+.Grid {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(var(--N), 1fr);
+  grid-template-rows: repeat(var(--N), 1fr);
+  position: absolute;
+  top: 50%; 
+  transform: translate(10%, -50%); 
+}
+
+.Board {
+  position: relative; /* Use relative positioning instead of absolute */
+  width: var(--board_w);
+  height: var(--board_h);
+  margin: 20px 0; /* Add margin to separate the boards vertically */
+  background-color: rgb(255, 255, 255,0.6); /* Semi-transparent background */
+  border: none;
+  border-radius: 20px;
+}
+
+/* .Board:after {
+  content: ''; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2); 
+  z-index: -1;
+} */
+
+.GameOver {
+  position: absolute; /* Use fixed positioning to keep it in place */
+  right: 11%;
+  top: 10%;
+}
+
+.TryAgain {
+  position: absolute; /* Use fixed positioning to keep it in place */
+  bottom: 30%;
+  right: 12%;
+}

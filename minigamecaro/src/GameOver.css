@@ -1,0 +1,6 @@
+.GameOver{
+    /* background-color: black; */
+    padding: 20px;
+    margin: 20px;
+    color: var(--cl);
+}

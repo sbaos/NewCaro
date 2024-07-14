@@ -1,0 +1,32 @@
+.TryAgain{
+  position: absolute;
+  /* background-color: black; */
+  bottom: 50%;
+  height: fit-content;
+  width: fit-content;
+  left: 60%;
+}
+.TryAgain button{
+    background-color: aqua;
+    height: fit-content;
+    width: 14vw;
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Ensure text is centered */
+    border: 10px;
+    border-style: ridge;
+    border-radius: 5px;
+    font-size: 30px;
+    left: 7px;
+    cursor: pointer;
+    bottom: -30px;
+    position: relative;
+    transition: transform 0.1s ease;
+  }
+.TryAgain button:hover{
+  background-color: rgb(40, 223, 223);
+}  
+.TryAgain button:active {
+  transform: scale(0.95); /* Slightly scale down the button when clicked */
+}

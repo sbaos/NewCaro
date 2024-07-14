@@ -1,0 +1,83 @@
+
+  .header-run {
+    left: 20px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; Ensure the running color is contained */
+  }
+  
+  .header-run::after {
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(255,0,0,0) 0%, rgba(0, 234, 255,1) 10%, rgba(255,0,0,0) 0%);
+    background-size: 200%;
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    color: transparent; /* Ensure the text itself is transparent */
+    z-index: 2;
+    font-size: 2rem; /* Adjust the font size to match the header text */
+    text-align: center;
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .Loading-container {
+    /* left: 50vw; */
+    /* top: 50vh; */
+    display: flex;
+    /* background-color: black; */
+    align-items: center;
+    position: fixed;
+    align-items: center;
+    top: 45%;
+    /* z-index: 100; */
+  }
+  
+  .Loading-icon {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 50%;
+    border-right: 2px solid rgb(190, 52, 52);
+  }
+  
+  .Loading-text {
+    margin-left: 10px;
+    height: fit-content;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Loading-icon {
+      animation: loading infinite 2s ease;
+    }
+    .header-run::after{
+        animation: runColor 3s linear infinite;
+    }
+  }
+  @keyframes runColor {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+  }
+
+  @keyframes loading {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

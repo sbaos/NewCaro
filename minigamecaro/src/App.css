@@ -1,0 +1,19 @@
+:root{
+    --leftdistan: 20%
+    
+}
+.App{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    /* background-color: aqua; */
+    /* height: 1000vh; */
+    /* width: 100%; */
+}
+.blur{
+    background-color: white;
+}
+     /* width: var(--gridSize);  */
+    /* height: var(--gridSize);*/

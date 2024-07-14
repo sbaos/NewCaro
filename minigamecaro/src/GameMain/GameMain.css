@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.GameMain {
+    display: flex;
+    width: fit-content;
+    height: 90vh;
+    /* border: rgb(227, 238, 22) 20px; */
+    border-style: solid;
+    border-top: 10px;
+    border-bottom: 10px;
+    position: relative;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center the boards horizontally */
+    gap: 20px; /* Add space between the boards */
+    padding: 20px; /* Add padding around the container */
+    /* max-height: 100vh; Limit the maximum height of the container */
+    /* overflow-y: auto; Enable vertical scrolling */
+    /* background-color: var(--color); */
+  }
+  .run{
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  .playerturn-text{
+    border-style: ridge;
+    border-color: var(--colorborderturn);
+    color: var(--colorborderturn);
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    right: 11%;
+  }
+  .exit-button{
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.4s;
+    bottom: 10%;
+  }
+  .exit-button:hover{
+    opacity: 1;
+
+  }
+  .exit-button:active{
+   color: white;
+   background-color: black;
+  }
+  .c{
+    height: 30px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    display: flex;
+    left: 100px;
+    bottom: 10%;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .run {
+       animation-name: moveInCircle;
+       animation-iteration-count: infinite;
+       animation-duration: 5s;
+       animation-timing-function: linear;
+     }
+     .c{
+        animation: cc infinite 2s ease;
+     }
+   }
+  @keyframes cc {
+    from{
+        transform: rotate(0deg) translateX(50px);
+    }to{
+        transform: rotate(-360deg) translateX(50px);
+    }
+  }
+@keyframes spinl {
+    from {
+      transform: var(--ca);
+    }
+    /* to {
+      transform: rotate(120deg);
+    } */
+  }
+  @keyframes spinr {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(180deg);
+      }
+      50% {
+        transform: rotate(0deg);
+      }
+      75% {
+        transform: rotate(-180deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+  }
+  @keyframes runl {
+    0% {
+      transform: translateX(50px) translateY(50px) rotate(0deg);
+    }
+    25% {
+      transform: translateX(25px) translateY(43px) rotate(90deg);
+    }
+    50% {
+      transform: translateX(-50px) translateY(-50px) rotate(180deg);
+    }
+    75% {
+      transform: translateX(0px) translateY(0px) rotate(270deg);
+    }
+    100% {
+      transform: translateX(50px) translateY(50px) rotate(360deg);
+    }
+  }
+  @keyframes moveInCircle {
+    0% {
+      transform: translate(50px, 0);
+    }
+    25% {
+      transform: translate(0, 50px);
+    }
+    50% {
+      transform: translate(-50px, 0);
+    }
+    75% {
+      transform: translate(0, -50px);
+    }
+    100% {
+      transform: translate(50px, 0);
+    }
+  }
+  @keyframes runr {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    75% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .loading-circle {
+    position: absolute;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #4CAF50;
+    border-top: 2px solid white;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
