@@ -67,5 +67,8 @@ blabla
     </td>
   </tr>
 </table>
-[ ![image](https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc) ](https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc)
+![image](https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b)
+
+![image](https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc) 
+(https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc)
 
