@@ -1,5 +1,4 @@
-
-![image](https://github.com/user-attachments/assets/1db0f2c4-37bb-4d38-ae97-2cb0be880b39)
+ <img src="https://github.com/user-attachments/assets/1db0f2c4-37bb-4d38-ae97-2cb0be880b39" alt="Compare" width="400" height="200">
 ## Our test
 ![image](https://github.com/user-attachments/assets/62f43331-13a4-4c72-b642-2467f814e301)
 
