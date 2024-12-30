@@ -16,7 +16,7 @@
 | 11 | PerceptualLoss_VGG16                             | This is the traditional Perceptual loss that takes the pretrained weight VGG16, the high level features are some from layer indexes.                  |
 | 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | Mixed-Weighted loss of Pixel loss and Perceptual loss.                                                                              |
 ##a
-<div style="width: 150px; height: 150px; overflow: hidden; position: relative;">
+<div style="width: 150px; height: 150px; overflow: hidden; position: relative; display:block ">
   <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" 
        alt="Cropped Image" 
        style="width: 500px; height: 500px; object-position: left top; display:block ;overflow: visible">
