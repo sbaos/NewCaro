@@ -4,7 +4,7 @@ blabla
   <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image 1" width="100" height="100">
-      <br>(1)
+      <br>(1) Our
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Image 2" width="100" height="100">
