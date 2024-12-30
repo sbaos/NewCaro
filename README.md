@@ -1,5 +1,5 @@
 blabla
-<div style="margin-x: auto">
+<div style="margin-x: auto; display: flex">
    <div>
    <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Image Blur" width="100" height="100">
       <br/> BLur image
