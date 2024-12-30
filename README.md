@@ -16,31 +16,45 @@
 | 11 | PerceptualLoss_VGG16                             | This is the traditional Perceptual loss that takes the pretrained weight VGG16, the high level features are some from layer indexes.                  |
 | 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | Mixed-Weighted loss of Pixel loss and Perceptual loss.                                                                              |
 ##a
-
-| <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" width="150" height="150" /> |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Blur Image**                                                                                                 | **Ground Truth**                                                                                                 |
-
----
-
-| <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/0fb46758-5130-4460-ac90-5371f1f6d02f" width="150" height="150" /> |
-
-| **(1) Our**                                                                                                    | **(2)**                                                                                                          | **(3)**                                                                                                          | **(4)**                                                                                                           |
-
----
-
-| <img src="https://github.com/user-attachments/assets/b71a0338-defb-4157-8021-911493893150" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/41c8bd4e-ab84-41f3-a94e-54eb3807a32b" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/468c6e47-ab41-4218-8896-1df11a58d753" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/4b28cdd0-7773-49ff-9d54-7073b0485ee2" width="150" height="150" /> |
-
-| **(5)**                                                                                                        | **(6)**                                                                                                          | **(7)**                                                                                                          | **(8)**                                                                                                           |
-
----
-
-| <img src="https://github.com/user-attachments/assets/b0eae76c-4b71-4cef-a39b-29733ba01dce" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/ed372f3f-a490-4861-9c8d-f22478b025f9" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/5ba1c0d0-3496-4a0c-8143-0ecf4db9d77c" width="150" height="150" /> | <img src="https://github.com/user-attachments/assets/a5a4d349-ca45-45ee-9099-ab098be1dc67" width="150" height="150" /> |
-
-| **(9)**                                                                                                        | **(10)**                                                                                                         | **(11)**                                                                                                         | **(12)**                                                                                                          |
-
-
-
+<table>
+  <tr>
+    <!-- First Row: Original Images -->
+    <td>
+      <img src="ResultImages/942predicted_0.png" alt="Image 1" width="150">
+    </td>
+    <td>
+      <img src="ResultImages/942predicted_1.png" alt="Image 2" width="150">
+    </td>
+    <td>
+      <img src="ResultImages/942predicted_2.png" alt="Image 3" width="150">
+    </td>
+    <td>
+      <img src="ResultImages/942predicted_3.png" alt="Image 4" width="150">
+    </td>
+  </tr>
+  <tr>
+    <!-- Second Row: Cropped Images -->
+    <td>
+      <img src="ResultImages/942predicted_0.png" alt="Cropped 1" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+    </td>
+    <td>
+      <img src="ResultImages/942predicted_1.png" alt="Cropped 2" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+    </td>
+    <td>
+      <img src="ResultImages/942predicted_2.png" alt="Cropped 3" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+    </td>
+    <td>
+      <img src="ResultImages/942predicted_3.png" alt="Cropped 4" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+    </td>
+  </tr>
+  <tr>
+    <!-- Captions -->
+    <td style="text-align: center;"><b>(1 - Ours)</b></td>
+    <td style="text-align: center;"><b>(2)</b></td>
+    <td style="text-align: center;"><b>(3)</b></td>
+    <td style="text-align: center;"><b>(4)</b></td>
+  </tr>
+</table>
 
 
 ## Our result
