@@ -1,8 +1,20 @@
  <img src="https://github.com/user-attachments/assets/1db0f2c4-37bb-4d38-ae97-2cb0be880b39" alt="Compare" width="400" height="200">
  
 ## Our test
-![image](https://github.com/user-attachments/assets/62f43331-13a4-4c72-b642-2467f814e301)
-
+| #  | Loss function                                      | Explanation                                                                                                                                                      |
+|----|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Stochastic Perceptual Loss A                     | This is the Stochastic Perceptual Loss we proposed in the Methods section with only the first block repeatedly randomized.                                        |
+| 2  | Stochastic Perceptual Loss Last Block Only A      | This is the Stochastic Perceptual Loss we proposed in the Methods section with only the first block repeatedly randomized, but only take the last block features as loss (i.e. λ = [0, 0, 0, 1]). |
+| 3  | Stochastic Perceptual Loss Last Block Only B      | Same as #1, but with all MaxPool2d layers removed.                                                                                                              |
+| 4  | Stochastic Perceptual Loss C                     | Same as #1, but with all the blocks repeatedly randomized.                                                                                                      |
+| 5  | Stochastic Perceptual Loss Last Block Only C      | Same as #2, but with all the blocks repeatedly randomized.                                                                                                      |
+| 6  | Stochastic Perceptual Loss D                     | Same as #1, but with no randomization (to study the effect of randomization).                                                                                   |
+| 7  | Stochastic Perceptual Loss Last Block Only D      | Same as #2, but with no randomization.                                                                                                                           |
+| 8  | Pixel loss L2                                    | This is the Pixel loss in the Preliminaries section.                                                                                                            |
+| 9  | LPIPS_loss                                       | This is also the metric function to calculate the LPIPS metric.                                                                                                 |
+| 10 | 0.8Pixel_loss_L2 + 0.2LPIPS_loss                 | Mixed-Weighted loss of Pixel loss and LPIPS loss.                                                                                                               |
+| 11 | PerceptualLoss_VGG16                             | This is the traditional Perceptual loss that takes the pretrained weight VGG16, the high level features are from layer indexes: [3, 8, 15, 22].                   |
+| 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | Mixed-Weighted loss of Pixel loss and Perceptual loss.                                                                                                         |
 <table>
    <tr>
       <td>
@@ -71,7 +83,6 @@
     </td>
   </tr>
 </table>
-![image](https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b) 
 
 ## Our result
 | #  | Loss function                                      | PSNR ↑  | SSIM ↑  | LPIPS ↓  |
