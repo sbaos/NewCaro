@@ -1,7 +1,13 @@
 blabla
 <div style="margin-x: auto">
+   <div>
    <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Image Blur" width="100" height="100">
+      <br/> BLur image
+   </div>
+   <div>
    <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image Sharp" width="100" height="100">
+      <br/> Ground Truth
+   </div>
 </div>
 <table style="text-align: center;">
   <tr>
