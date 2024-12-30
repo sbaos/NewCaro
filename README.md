@@ -30,47 +30,23 @@ Run all cells in `validation_to_img.ipynb` to validate the model and save the ge
 | 9  | LPIPS_loss                                       | This is also the metric function to calculate the LPIPS metric.                                                                                                 |
 | 10 | 0.8Pixel_loss_L2 + 0.2LPIPS_loss                 | Mixed-Weighted loss of Pixel loss and LPIPS loss.                                                                                                               |
 | 11 | PerceptualLoss_VGG16                             | This is the traditional Perceptual loss that takes the pretrained weight VGG16, the high level features are some from layer indexes.                  |
-| 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | Mixed-Weighted loss of Pixel loss and Perceptual loss.                                                                                                         |
-<table>
-   <tr>
-      <td>
-         <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Image Blur" width="150" height="100">
-         <img src="https://github.com/user-attachments/assets/a304161d-8655-43a7-92d6-a3b2eddb0edd" alt="Image Blur" width="150" height="75">
-         <br/> Blur Image
-      </td>
-   </tr>
-   <tr>
-      <td>
-         <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image Sharp" width="150" height="100">
-         <img src="https://github.com/user-attachments/assets/e9372a9f-0547-4d52-8b97-280e20762b1e" alt="Image Sharp" width="150" height="75">
-         <br/> Ground Truth
-      </td>
-   </tr>
-</table>
-
-<table style="text-align: center;">
+| 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | Mixed-Weighted loss of Pixel loss and Perceptual loss.                                                             <table style="text-align: center;">
   <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image 1" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/416c3075-2359-4aab-a48d-970fb86dd8b9" alt="Image 1" width="150" height="75">
       <br><b>(1) Our</b>
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Image 2" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/a9583cdf-4b51-4be8-a2d6-5dfab46e5c06" alt="Image 2" width="150" height="75">
       <br>(2)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Image 3" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/0fc4b051-b4dc-4355-af75-be561a229d72" alt="Image 3" width="150" height="75">
       <br>(3)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/0fb46758-5130-4460-ac90-5371f1f6d02f" alt="Image 4" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/5732a16a-b261-40c1-bae6-bebdbb779afe" alt="Image 4" width="150" height="75">
@@ -83,22 +59,16 @@ Run all cells in `validation_to_img.ipynb` to validate the model and save the ge
       <img src="https://github.com/user-attachments/assets/795ddecd-2ccc-4a06-805b-fdaadcf783fb" alt="Image 5" width="150" height="75">
       <br>(5)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/41c8bd4e-ab84-41f3-a94e-54eb3807a32b" alt="Image 6" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/dd293b84-ffd3-443f-be2d-62c492621d97" alt="Image 6" width="150" height="75">
       <br>(6)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/468c6e47-ab41-4218-8896-1df11a58d753" alt="Image 7" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/314b889d-2a0e-4e4b-b3cb-15bb545bad48" alt="Image 7" width="150" height="75">
       <br>(7)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/4b28cdd0-7773-49ff-9d54-7073b0485ee2" alt="Image 8" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/81857ab6-9732-437a-b5f7-415b62581e80" alt="Image 8" width="150" height="75">
@@ -111,22 +81,16 @@ Run all cells in `validation_to_img.ipynb` to validate the model and save the ge
       <img src="https://github.com/user-attachments/assets/d3b8a75e-b132-48f8-a3e2-9892fff7f187" alt="Image 9" width="150" height="75">
       <br>(9)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/ed372f3f-a490-4861-9c8d-f22478b025f9" alt="Image 10" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/fcc940b3-063c-468a-be70-f41e3222fb27" alt="Image 10" width="150" height="75">
       <br>(10)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/5ba1c0d0-3496-4a0c-8143-0ecf4db9d77c" alt="Image 11" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/7a18baeb-ec2d-4104-b0db-a763a932a02c" alt="Image 11" width="150" height="75">
       <br>(11)
     </td>
-  </tr>
-  <tr>
     <td>
       <img src="https://github.com/user-attachments/assets/a5a4d349-ca45-45ee-9099-ab098be1dc67" alt="Image 12" width="150" height="100">
       <img src="https://github.com/user-attachments/assets/185d6b8d-c512-4891-805e-b98683c7a2d8" alt="Image 12" width="150" height="75">
