@@ -16,6 +16,14 @@
 | 11 | PerceptualLoss_VGG16                             | This is the traditional Perceptual loss that takes the pretrained weight VGG16, the high level features are some from layer indexes.                  |
 | 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | Mixed-Weighted loss of Pixel loss and Perceptual loss.                                                                              |
 ##a
+## Styling Images in README
+
+You can style images directly within the README by embedding CSS in the HTML `<style>` tags.
+
+### Example
+
+```html
+<!-- Embedded HTML with Inline CSS -->
 <table>
   <tr>
     <!-- First Row: Original Images -->
@@ -26,25 +34,33 @@
       <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image 2" width="150">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Image 3" width="150">
+      <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Image 3" width="150">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Image 4" width="150">
+      <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Image 4" width="150">
     </td>
   </tr>
   <tr>
     <!-- Second Row: Cropped Images -->
     <td>
-      <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Cropped 1" style="width: 150px; height: 150px; object-position: center 50%;">
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Cropped 1">
+      </div>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Cropped 2" style="width: 150px; height: 150px;  object-position: center 50%;">
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Cropped 2">
+      </div>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Cropped 3" style="width: 150px; height: 150px; object-position: center 50%;">
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Cropped 3">
+      </div>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Cropped 4" style="width: 150px; height: 150px; ; object-position: center 50%;">
+      <div class="image-container">
+        <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Cropped 4">
+      </div>
     </td>
   </tr>
   <tr>
@@ -55,6 +71,23 @@
     <td style="text-align: center;"><b>(4)</b></td>
   </tr>
 </table>
+
+<!-- Embedded CSS to style the images -->
+<style>
+  .image-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+</style>
 
 
 
