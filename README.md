@@ -49,8 +49,8 @@ Run all cells in `validation_to_img.ipynb` to validate the model and save the ge
 <table style="text-align: center;">
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image 1" width="100" height="70">
-      <img src="https://github.com/user-attachments/assets/416c3075-2359-4aab-a48d-970fb86dd8b9" alt="Image 1" width="100" height="50">
+      <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Image 1" width="150" height="100">
+      <img src="https://github.com/user-attachments/assets/416c3075-2359-4aab-a48d-970fb86dd8b9" alt="Image 1" width="150" height="75">
       <br><b>(1) Our</b>
     </td>
     <td>
