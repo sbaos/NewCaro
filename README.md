@@ -35,16 +35,16 @@
   <tr>
     <!-- Second Row: Cropped Images -->
     <td>
-      <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Cropped 1" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+      <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Cropped 1" style="width: 150px; height: 150px; object-position: center 50%;">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Cropped 2" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+      <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" alt="Cropped 2" style="width: 150px; height: 150px;  object-position: center 50%;">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Cropped 3" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+      <img src="https://github.com/user-attachments/assets/959e8fb6-160a-4268-976a-fdd50d16f297" alt="Cropped 3" style="width: 150px; height: 150px; object-position: center 50%;">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Cropped 4" style="width: 150px; height: 150px; object-fit: cover; object-position: center 50%;">
+      <img src="https://github.com/user-attachments/assets/39905bd5-79ca-486d-a730-bf3631e78cc4" alt="Cropped 4" style="width: 150px; height: 150px; ; object-position: center 50%;">
     </td>
   </tr>
   <tr>
