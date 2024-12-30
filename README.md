@@ -38,7 +38,7 @@
     <!-- Second Row: Cropped Images -->
     <td>
       <div style="width: 100px; height: 100px; overflow: hidden; position: relative;">
-        <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Cropped 1" style="width: 500px; height: 500px; object-fit: cover; object-position: center;">
+        <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" alt="Cropped 1" style="width: 500px; height: 500px; object-position: center;">
       </div>
     </td>
     <td>
