@@ -74,5 +74,18 @@
 ![image](https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b) 
 
 ## Our result
-![image](https://github.com/user-attachments/assets/b5650444-cd3a-46ad-b760-24d40b69fdb8)
+| #  | Loss function                                      | PSNR ↑  | SSIM ↑  | LPIPS ↓  |
+|----|---------------------------------------------------|---------|---------|----------|
+| 1  | Stochastic Perceptual Loss A                     | 29.5394 | 0.8919  | 0.1094   |
+| 2  | Stochastic Perceptual Loss Last Block Only A      | 29.1794 | 0.8838  | 0.1061   |
+| 3  | Stochastic Perceptual Loss Last Block Only B      | **29.7406** | **0.8944** | 0.1445   |
+| 4  | Stochastic Perceptual Loss C                     | 28.8223 | 0.8764  | 0.1123   |
+| 5  | Stochastic Perceptual Loss Last Block Only C      | 28.8192 | 0.8738  | 0.1078   |
+| 6  | Stochastic Perceptual Loss D                     | 29.0393 | 0.8737  | 0.1451   |
+| 7  | Stochastic Perceptual Loss Last Block Only D      | 27.5282 | 0.8029  | 0.1659   |
+| 8  | Pixel loss L2                                    | 29.6951 | 0.8915  | 0.1481   |
+| 9  | LPIPS_loss                                       | 21.9385 | 0.3964  | 0.0785   |
+| 10 | 0.8Pixel_loss_L2 + 0.2LPIPS_loss                 | 28.5336 | 0.8515  | **0.0701**|
+| 11 | PerceptualLoss_VGG16                             | 22.5386 | 0.4476  | 0.1008   |
+| 12 | 0.8Pixel_loss_L2 + 0.2PerceptualLoss_VGG16       | 29.4032 | 0.8828  | 0.0937   |
 
