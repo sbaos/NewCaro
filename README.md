@@ -67,3 +67,15 @@ blabla
     </td>
   </tr>
 </table>
+<div style="margin: auto; display: flex; justify-content: center; align-items: center;">
+  <div style="position: relative; overflow: hidden; width: 200px; height: 200px; border: 1px solid #ccc;">
+    <img 
+      src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" 
+      alt="Zoomed Image" 
+      style="width: 100%; height: auto; transition: transform 0.3s ease; transform-origin: 50% 50%;"
+      onmouseover="this.style.transform='scale(2)';"
+      onmouseout="this.style.transform='scale(1)';"
+    >
+  </div>
+</div>
+
