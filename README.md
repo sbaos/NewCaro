@@ -67,8 +67,5 @@ blabla
     </td>
   </tr>
 </table>
-<div style="width: 150px; height: 150px; overflow: hidden; position: relative; border: 1px solid #ccc;">
-  <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" 
-       alt="Zoomed Image" 
-       style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px;">
-</div>
+[ ![](https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc) ](https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc)
+
