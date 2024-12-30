@@ -19,7 +19,7 @@
 <div style="width: 150px; height: 150px; overflow: hidden; position: relative;">
   <img src="https://github.com/user-attachments/assets/2f19b5b1-8481-43fe-87f8-87e8aac5b12b" 
        alt="Cropped Image" 
-       style="width: 500px; height: 500px; object-position: left top;">
+       style="width: 500px; height: 500px; object-position: left top; display:block">
 </div>
 
 
