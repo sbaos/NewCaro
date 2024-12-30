@@ -67,48 +67,8 @@ blabla
     </td>
   </tr>
 </table>
-<div style="margin: auto; display: flex; justify-content: center; align-items: center;">
-  <div style="position: relative; overflow: hidden; width: 200px; height: 200px; border: 1px solid #ccc;">
-    <img 
-      src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" 
-      alt="Zoomed Image" 
-      style="width: 100%; height: auto; transition: transform 0.3s ease; transform-origin: 50% 50%;"
-      onmouseover="this.style.transform='scale(2)';"
-      onmouseout="this.style.transform='scale(1)';"
-    >
-  </div>
+<div style="width: 150px; height: 150px; overflow: hidden; position: relative; border: 1px solid #ccc;">
+  <img src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" 
+       alt="Zoomed Image" 
+       style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px;">
 </div>
-
-<div 
-  id="zoom-container" 
-  style="position: relative; overflow: hidden; width: 300px; height: 300px; border: 1px solid #ccc; cursor: crosshair;"
->
-  <img 
-    src="https://github.com/user-attachments/assets/dd635e1d-9248-4e9d-aa5a-69ba940d1cdc" 
-    alt="Zoomed Image" 
-    id="zoom-image"
-    style="width: 100%; height: auto; transition: transform 0.1s ease;"
-  >
-</div>
-
-<script>
-  const container = document.getElementById('zoom-container');
-  const image = document.getElementById('zoom-image');
-
-  container.addEventListener('mousemove', (event) => {
-    const rect = container.getBoundingClientRect();
-    const xPercent = ((event.clientX - rect.left) / rect.width) * 100;
-    const yPercent = ((event.clientY - rect.top) / rect.height) * 100;
-
-    // Set the transform origin dynamically based on cursor position
-    image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
-    image.style.transform = 'scale(2)';
-  });
-
-  container.addEventListener('mouseleave', () => {
-    // Reset the zoom effect when the cursor leaves the container
-    image.style.transform = 'scale(1)';
-    image.style.transformOrigin = '50% 50%';
-  });
-</script>
-
